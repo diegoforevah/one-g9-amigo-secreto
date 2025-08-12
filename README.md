@@ -8,7 +8,6 @@
 </p>
 
 ## Índice
-- [Índice](#índice)
 - [Descripción del proyecto](#descripción-del-proyecto)
 - [Estado del proyecto](#estado-del-proyecto)
 - [Características de la aplicación y demostración](#características-de-la-aplicación-y-demostración)
@@ -21,10 +20,9 @@
 
 ---
 
-## Índice
-
 ## Descripción del proyecto
 
 Proyecto hecho para el curso de JavaScript ONE G9.
+
 
 
