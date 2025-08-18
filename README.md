@@ -12,10 +12,7 @@
 - [Características de la aplicación y demostración](#características-de-la-aplicación-y-demostración)
 - [Acceso al proyecto](#acceso-al-proyecto)
 - [Tecnologías utilizadas](#tecnologías-utilizadas)
-- [Personas contribuyentes](#personas-contribuyentes)
-- [Personas desarrolladoras del proyecto](#personas-desarrolladoras-del-proyecto)
 - [Licencia](#licencia)
-- [Conclusión](#conclusión)
 
 ---
 
@@ -57,3 +54,4 @@ Para la creación de este proyecto, se usó HTML, CSS Y JAVASCRIPT.
 ## Licencia
 
 El proyecto es libre, no cuenta con licencia.
+
