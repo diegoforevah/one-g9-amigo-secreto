@@ -3,17 +3,23 @@
 let listaAmigos = [];
 
 function agregarAmigo() {
-    var amigo = document.getElementById("amigo").value.toString().trim();
+    let amigo = document.getElementById("amigo").value.toString().trim();
 
     if (amigo == "") {
         alert("Por favor ingrese un nombre válido");
         return;
-    } else if (listaAmigos.includes(amigo)) {
+    }
+
+    let existe = listaAmigos.some((value) => value.toString().toLowerCase() === amigo.toLowerCase())
+    
+    if (existe) {
         alert("El nombre ya está agregado");
         return;
     }
 
-    listaAmigos.push(amigo);
+    let amigoFormateado = String(amigo).charAt(0).toUpperCase() + String(amigo).slice(1);
+
+    listaAmigos.push(amigoFormateado);
 
     let listaAmigoshtml = document.getElementById("listaAmigos");
     listaAmigoshtml.innerHTML = "";
@@ -34,11 +40,11 @@ function sortearAmigo() {
         return;
     }
 
-    var resultadohtml = document.getElementById("resultado");
+    let resultadohtml = document.getElementById("resultado");
 
-    var random = Math.floor(Math.random() * listaAmigos.length);
+    let random = Math.floor(Math.random() * listaAmigos.length);
 
-    var amigoSorteado = listaAmigos[random];
+    let amigoSorteado = listaAmigos[random];
 
     resultadohtml.innerHTML = "El amigo sorteado es: " + amigoSorteado;
 
