@@ -3,7 +3,7 @@
   <img width="150" height="150" alt="amigo-secreto-logo" src="https://github.com/user-attachments/assets/1a40af81-9e01-4ff1-bbaf-a628250819fa" />
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Estado-En%20Desarrollo-purple">
+  <img src="https://img.shields.io/badge/Estado-Finalizado-purple">
   <img src="https://img.shields.io/badge/Fecha%20de%20lanzamiento-Agosto%202025-orange">
 </p>
 
@@ -54,4 +54,5 @@ Para la creación de este proyecto, se usó HTML, CSS Y JAVASCRIPT.
 ## Licencia
 
 El proyecto es libre, no cuenta con licencia.
+
 
